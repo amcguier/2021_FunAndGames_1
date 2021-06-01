@@ -1,2 +1,1 @@
-language = "python3"
-run = "python tick_tack_toe.py"
+language="python3"

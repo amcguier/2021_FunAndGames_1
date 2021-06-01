@@ -52,9 +52,11 @@ class Card():
         else:
             raise ValueError("Invalid rank provided", self._rank)
         
+    def __str__(self):
+        return self.rank_string + " of " + self.icon
 
     def print(self):
-        return self.rank_string + " of " + self.icon
+        return self.__str__
 
 
 class Deck():
